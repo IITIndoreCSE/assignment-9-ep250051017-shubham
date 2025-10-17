@@ -9,7 +9,7 @@ struct Item{
 int main() {
    
     Item arr[6];
-    for(int i = 0; i<4; i++)
+    for(int i = 0; i<4; i++)// initializing with random data
     {
         arr[i].id = i+1;
         arr[i].cost = (i+1)*20;
